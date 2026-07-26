@@ -114,7 +114,7 @@ python -m PyInstaller -F -w -n "智能解压器" -i "image.ico" --add-data "imag
 ### 🍎 macOS 端打包与权限解锁
 *(注：若需在 macOS 下打包，需将项目内的 `7z.exe/dll` 替换为 Mac 版的原生 `7zz` 二进制文件，并修改相应的打包命令与 `engine.py` 调用路径。)*
 
-#本项目本次没有针对macOS优化，请自行检查macOS兼容性，您可能需要修改一定量的代码内容
+**本项目本次没有针对macOS优化，请自行检查macOS兼容性，您可能需要修改一定量的代码内容**
 
 由于 macOS 的安全防护机制（Gatekeeper）非常严格，对于未付费签名的开发者作品，会默认拦截并提示“已损坏”。解除限制请在终端输入：
 ```bash
